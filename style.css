@@ -88,3 +88,15 @@ p {
   line-height: 30px;
   text-align: center;
 }
+.project-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.description-bg {
+  background-color: #f0efff;
+}
+.picture-bg {
+  background-color: #ffffff;
+}
