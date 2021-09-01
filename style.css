@@ -109,6 +109,11 @@ p {
 .social-links {
   color: var(--branding-color);
 }
+
+.email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
 @media (max-width: 600px) {
   .project-pics {
     display: none;
