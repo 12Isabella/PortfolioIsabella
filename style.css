@@ -114,6 +114,9 @@ p {
   text-decoration: none;
   color: var(--branding-color);
 }
+.nav-extra {
+  border-radius: 4px;
+}
 @media (max-width: 600px) {
   .project-pics {
     display: none;
