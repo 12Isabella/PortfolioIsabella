@@ -25,14 +25,40 @@
   </head>
   <body>
     <div class="container">
-      <p>Hello, my name is</p>
+      <nav
+        class="navbar navbar-expand-lg sticky-top navbar-light bg-light mb-5"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <p id="home">Hello, my name is</p>
       <h1>Isabella Otto</h1>
       <h2 class="mb-4">Oslo based Front-end Developer</h2>
       <h3 class="mb-5">
         I love to build and design websites that work well and look pretty.
       </h3>
       <a href="#" class="btn btn-primary p-3 ps-4 pe-4 mb-5">Take a look!</a>
-      <h2 class="sectionHeading mb-2">About</h2>
+      <h2 id="about" class="sectionHeading mb-2">About</h2>
       <div class="row">
         <div class="col-md-6 description-bg">
           <p class="about-text">
@@ -53,7 +79,7 @@
           />
         </div>
       </div>
-      <h2 class="sectionHeading mb-2">Skills</h2>
+      <h2 id="skills" class="sectionHeading mb-2">Skills</h2>
       <div class="row">
         <div class="col-sm">
           <i class="fab fa-html5 fa-7x d-flex justify-content-center"></i>
@@ -76,7 +102,7 @@
           <div class="skillTag">React</div>
         </div>
       </div>
-      <h2 class="sectionHeading mb-2">Projects</h2>
+      <h2 id="projects" class="sectionHeading mb-2">Projects</h2>
       <div class="row">
         <div class="col-md-6 description-bg">
           <p class="project-text pt-3">A weather app created with React.</p>
@@ -134,6 +160,7 @@
           <a href="#" class="btn btn-primary mb-3">Weather App</a>
         </div>
       </div>
+      <h2 id="contact" class="sectionHeading mb-2">Contact</h2>
     </div>
 
     <script
