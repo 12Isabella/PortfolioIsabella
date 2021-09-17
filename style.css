@@ -91,10 +91,12 @@ p {
 .description-bg {
   background-color: #f0efff;
   border-radius: 4px;
+  margin-bottom: 2%;
 }
 .picture-bg {
   background-color: #ffffff;
   border-radius: 4px;
+  margin-bottom: 2%;
 }
 
 .contact-styling {
@@ -119,9 +121,7 @@ p {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .project-pics {
-    display: none;
-  }
+
   h1 {
     font-size: 50px;
     line-height: 70px;
