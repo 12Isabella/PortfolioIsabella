@@ -1,32 +1,21 @@
 console.log("Hello");
 
-let folder1 = [
-  `<img
-    src="images/memos/arraysElementExistance/1.jpg"
-    class="image img-fluid"
-    alt="img1"
-  />`,
-  `<img
-    src="images/memos/arraysElementExistance/2.jpg"
-    class="image img-fluid"
-    alt="img2"
-  />`,
-  `<img
-    src="images/memos/arraysElementExistance/3.jpg"
-    class="image img-fluid"
-    alt="img3"
-  />`,
-];
+let folder1 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
 let memonFolder1 = document.querySelector("#memoFolder1");
 
-let memoHTML = `<div class="row">`;
+let memoHTML = `<div class="row"><div class="col-md picture-bg">`;
 
 folder1.forEach((image) => {
-  memoHTML = memoHTML + image;
+  memoHTML =
+    memoHTML +
+    `<img
+    src="images/memos/arraysElementExistance/${image.name}.jpg"
+    class="image img-fluid"
+  />`;
 });
 
-memonFolder1.innerHTML = memoHTML;
+memoFolder1.innerHTML = memoHTML + `</div>`;
 
 //this could be in an extra folder, then I can try to run the images in each folder through a forEach...
 //is this really better than having all the images hardcoded in the html thogh??
