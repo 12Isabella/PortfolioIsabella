@@ -26,8 +26,6 @@ folder1.forEach((image) => {
   memoHTML = memoHTML + image;
 });
 
-memoHTML = memoHTML + `</div>`;
-
 memonFolder1.innerHTML = memoHTML;
 
 //this could be in an extra folder, then I can try to run the images in each folder through a forEach...
