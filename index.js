@@ -1,55 +1,53 @@
-console.log("Hello");
+let folder7 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
-let folder1 = [{ name: "1" }, { name: "2" }, { name: "3" }];
+let memoFolder7 = document.querySelector("#memoFolder7");
 
-let memoFolder1 = document.querySelector("#memoFolder1");
+let memoHTML7 = `<div class="row"><div class="col-md picture-bg">`;
 
-let memoHTML = `<div class="row"><div class="col-md picture-bg">`;
-
-folder1.forEach((image) => {
-  memoHTML =
-    memoHTML +
+folder7.forEach((image) => {
+  memoHTML7 =
+    memoHTML7 +
     `<img
     src="images/memos/arraysElementExistance/${image.name}.jpg"
     class="image img-fluid"
   />`;
 });
 
-memoFolder1.innerHTML = memoHTML + `</div>`;
+memoFolder7.innerHTML = memoHTML7 + `</div>`;
 
-let folder2 = [{ name: "1" }, { name: "2" }, { name: "3" }, { name: "4" }];
+let folder6 = [{ name: "1" }, { name: "2" }, { name: "3" }, { name: "4" }];
 
-let memoFolder2 = document.querySelector("#memoFolder2");
+let memoFolder6 = document.querySelector("#memoFolder6");
 
-let memoHTML2 = `<div class="row"><div class="col-md picture-bg">`;
+let memoHTML6 = `<div class="row"><div class="col-md picture-bg">`;
 
-folder2.forEach((image) => {
-  memoHTML2 =
-    memoHTML2 +
+folder6.forEach((image) => {
+  memoHTML6 =
+    memoHTML6 +
     `<img
     src="images/memos/thisKeyword/${image.name}.jpg"
     class="image img-fluid"
   />`;
 });
 
-memoFolder2.innerHTML = memoHTML2 + `</div>`;
+memoFolder6.innerHTML = memoHTML6 + `</div>`;
 
-let folder3 = [{ name: "1" }, { name: "2" }, { name: "3" }];
+let folder5 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
-let memoFolder3 = document.querySelector("#memoFolder3");
+let memoFolder5 = document.querySelector("#memoFolder5");
 
-let memoHTML3 = `<div class="row"><div class="col-md picture-bg">`;
+let memoHTML5 = `<div class="row"><div class="col-md picture-bg">`;
 
-folder3.forEach((image) => {
-  memoHTML3 =
-    memoHTML3 +
+folder5.forEach((image) => {
+  memoHTML5 =
+    memoHTML5 +
     `<img
     src="images/memos/objects/${image.name}.jpg"
     class="image img-fluid"
   />`;
 });
 
-memoFolder3.innerHTML = memoHTML3 + `</div>`;
+memoFolder5.innerHTML = memoHTML5 + `</div>`;
 
 let folder4 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
@@ -68,53 +66,53 @@ folder4.forEach((image) => {
 
 memoFolder4.innerHTML = memoHTML4 + `</div>`;
 
-let folder5 = [{ name: "1" }, { name: "2" }];
+let folder3 = [{ name: "1" }, { name: "2" }];
 
-let memoFolder5 = document.querySelector("#memoFolder5");
+let memoFolder3 = document.querySelector("#memoFolder3");
 
-let memoHTML5 = `<div class="row"><div class="col-md picture-bg">`;
+let memoHTML3 = `<div class="row"><div class="col-md picture-bg">`;
 
-folder5.forEach((image) => {
-  memoHTML5 =
-    memoHTML5 +
+folder3.forEach((image) => {
+  memoHTML3 =
+    memoHTML3 +
     `<img
     src="images/memos/responsiveGrids/${image.name}.jpg"
     class="image img-fluid"
   />`;
 });
 
-memoFolder5.innerHTML = memoHTML5 + `</div>`;
+memoFolder3.innerHTML = memoHTML3 + `</div>`;
 
-let folder6 = [{ name: "1" }, { name: "2" }];
+let folder2 = [{ name: "1" }, { name: "2" }];
 
-let memoFolder6 = document.querySelector("#memoFolder6");
+let memofolder2 = document.querySelector("#memoFolder2");
 
-let memoHTML6 = `<div class="row"><div class="col-md picture-bg">`;
+let memoHTML2 = `<div class="row"><div class="col-md picture-bg">`;
 
-folder6.forEach((image) => {
-  memoHTML6 =
-    memoHTML6 +
+folder2.forEach((image) => {
+  memoHTML2 =
+    memoHTML2 +
     `<img
     src="images/memos/SEO/${image.name}.jpg"
     class="image img-fluid"
   />`;
 });
 
-memoFolder6.innerHTML = memoHTML6 + `</div>`;
+memoFolder2.innerHTML = memoHTML2 + `</div>`;
 
-let folder7 = [{ name: "1" }, { name: "2" }];
+let folder1 = [{ name: "1" }, { name: "2" }];
 
-let memoFolder7 = document.querySelector("#memoFolder7");
+let memoFolder1 = document.querySelector("#memoFolder1");
 
-let memoHTML7 = `<div class="row"><div class="col-md picture-bg">`;
+let memoHTML1 = `<div class="row"><div class="col-md picture-bg">`;
 
-folder7.forEach((image) => {
-  memoHTML7 =
-    memoHTML7 +
+folder1.forEach((image) => {
+  memoHTML1 =
+    memoHTML1 +
     `<img
     src="images/memos/staticWebsite/${image.name}.jpg"
     class="image img-fluid"
   />`;
 });
 
-memoFolder7.innerHTML = memoHTML7 + `</div>`;
+memoFolder1.innerHTML = memoHTML1 + `</div>`;
