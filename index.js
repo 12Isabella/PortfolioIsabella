@@ -1,3 +1,60 @@
+let folder10 = [{ name: "1" }, { name: "2" }, { name: "3" }];
+
+let memoFolder10 = document.querySelector("#memoFolder10");
+
+let memoHTML10 = `<div class="row"><div class="col-md picture-bg">`;
+
+folder10.forEach((image) => {
+  memoHTML10 =
+    memoHTML10 +
+    `<img
+    src="images/memos/arraysArray.reduce/${image.name}.jpg"
+    class="image img-fluid"
+  />`;
+});
+
+memoFolder10.innerHTML = memoHTML10 + `</div>`;
+
+let folder9 = [{ name: "1" }, { name: "2" }, { name: "3" }, { name: "4" }];
+
+let memoFolder9 = document.querySelector("#memoFolder9");
+
+let memoHTML9 = `<div class="row"><div class="col-md picture-bg">`;
+
+folder9.forEach((image) => {
+  memoHTML9 =
+    memoHTML9 +
+    `<img
+    src="images/memos/arraysGetSubsets/${image.name}.jpg"
+    class="image img-fluid"
+  />`;
+});
+
+memoFolder9.innerHTML = memoHTML9 + `</div>`;
+
+let folder8 = [
+  { name: "1" },
+  { name: "2" },
+  { name: "3" },
+  { name: "4" },
+  { name: "5" },
+];
+
+let memoFolder8 = document.querySelector("#memoFolder8");
+
+let memoHTML8 = `<div class="row"><div class="col-md picture-bg">`;
+
+folder8.forEach((image) => {
+  memoHTML8 =
+    memoHTML8 +
+    `<img
+    src="images/memos/arraysPerformActionsOnAllElements/${image.name}.jpg"
+    class="image img-fluid"
+  />`;
+});
+
+memoFolder8.innerHTML = memoHTML8 + `</div>`;
+
 let folder7 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
 let memoFolder7 = document.querySelector("#memoFolder7");
