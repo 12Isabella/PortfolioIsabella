@@ -116,6 +116,20 @@ p {
 .nav-extra {
   border-radius: 4px;
 }
+
+.badge {
+  text-decoration: none;
+  color: var(--background-base-color);
+  background-color: var(--branding-color);
+  border-radius: 30px;
+}
+
+.badge:hover {
+  color: var(--branding-color);
+  background-color: var(--background-base-color);
+  transition: ease-in-out, 0.5s;
+}
+
 @media (max-width: 768px) {
   .container {
     padding-left: 30px;
