@@ -173,3 +173,24 @@ folder1.forEach((image) => {
 });
 
 memoFolder1.innerHTML = memoHTML1 + `</div>`;
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollButton.style.display = "block";
+  } else {
+    scrollButton.style.display = "none";
+  }
+}
+
+let scrollButton = document.getElementById("btn-back-to-top");
+
+scrollButton.addEventListener("click", backToTop);
