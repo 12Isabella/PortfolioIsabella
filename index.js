@@ -1,3 +1,20 @@
+let folder12 = [{ name: "1" }, { name: "2" }, { name: "3" }];
+
+let memoFolder12 = document.querySelector("#memoFolder12");
+
+let memoHTML12 = `<div class="row"><div class="col-md picture-bg">`;
+
+folder12.forEach((image) => {
+  memoHTML12 =
+    memoHTML12 +
+    `<img
+    src="images/memos/objectsTurnIntoArrays/${image.name}.jpg"
+    class="image img-fluid"
+  />`;
+});
+
+memoFolder12.innerHTML = memoHTML12 + `</div>`;
+
 let folder11 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
 let memoFolder11 = document.querySelector("#memoFolder11");
