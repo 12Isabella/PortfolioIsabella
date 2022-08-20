@@ -52,7 +52,6 @@ memoFolder11.innerHTML = memoHTML11 + `</div>`;
 let folder10 = [{ name: "1" }, { name: "2" }, { name: "3" }];
 
 let memoFolder10 = document.querySelector("#memoFolder10");
-print("hallo");
 
 let memoHTML10 = `<div class="row"><div class="col-md picture-bg">`;
 
